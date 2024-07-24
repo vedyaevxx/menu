@@ -1,0 +1,75 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+	font-size: 0;
+}
+
+nav{
+	background-color: #333333;
+	border-bottom: 7px solid #009EFF;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+li{
+	display: inline-block;
+	width: 340px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 70px;
+}
+
+li:hover{background-color: #009EFF;}
+
+.sub-list, .sub-sub-list{
+	display: none;
+	width: 200%;
+	position: absolute;
+	border: 1px solid #0084ef;
+	border-radius: 0 0 3px 3px;
+	background-color: #009EFF;
+}
+
+.sub-list li{
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #0084ef;
+	text-align: left;
+}
+
+.sub-list li:hover{background-color: #00A9FF;}
+
+.sub-list a{
+	padding-left: 16%;
+	text-transform: none;
+}
+
+.products{position: relative;}
+
+li:hover .sub-list{display: block;}
+
+span{
+	display: inline-block;
+	width: 70%;
+	text-align: right;
+}
+
+.sub-sub-list{
+	width: 100%;
+	left: 680px;
+	top: 0;
+}
+
+.sub-list li:hover .sub-sub-list{display: block;}
