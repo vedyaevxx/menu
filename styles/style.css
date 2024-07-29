@@ -4,7 +4,11 @@ body{
 	font-size: 0;
 }
 
+header{position: relative;}
+
 nav{
+	width: 100%;
+	position: fixed;
 	background-color: #333333;
 	border-bottom: 7px solid #009EFF;
 }
@@ -73,3 +77,12 @@ span{
 }
 
 .sub-list li:hover .sub-sub-list{display: block;}
+
+.block-1{
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	margin: 80px;
+	border-radius: 50%;
+	background-color: blue;
+}
